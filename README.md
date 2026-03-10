@@ -51,6 +51,34 @@ Unit Testing
 
 python server.py
 
+## Run the client
+
+Then open another terminal and run:
+
+python client.py
+
+You can now execute commands interactively:
+
+Example session:
+
+> SET name Alice
+OK
+
+> GET name
+Alice
+
+> SET temp 123 EX 5
+OK
+
+> TTL temp
+4
+
+> DEL name
+1
+
+> GET name
+(nil)
+
 ## Benchmark
 
 python benchmark.py
