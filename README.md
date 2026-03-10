@@ -61,7 +61,7 @@ You can now execute commands interactively:
 
 Example session:
 
->> SET name Alice
+> SET name Alice
 
 OK
 
